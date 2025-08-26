@@ -109,12 +109,12 @@
     padding-bottom: 3%;
 }
 
-.fragrance {
+.fashion {
     text-align: center;
 }
 
 .F-btn {
-    background-color: black;
+    background-color: rgb(1, 1, 80);
     color: white;
     border-style: solid;
     border-radius: 15px;
@@ -129,7 +129,7 @@
 }
 
 .F-btn:hover {
-    background-color: #D4AF37;
+    background-color: #d60808;
 }
 
 .grid-collection {
@@ -141,7 +141,7 @@
 }
 
 .color:hover {
-    background-color: #D4AF37;
+    background-color: #d60808;
 }
 
 .cut {
