@@ -12,57 +12,43 @@
 
 <body>
 
-    <section id="header">
+  <section id="header">
         <a href="#"><img src="assest/Img/logo.png" class="logo" alt=""
                 style="width: 100px;height: 100px;margin-left: 70px;"></a>
 
         <div>
             <ul id="navbar">
-                <li><a class="active" href="">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="Shop.html">Shop</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="login.html">Login/Register</a></li>
-                <li><a href="cart.html"><img src="assest/img/2.png" style="width: 30px;height: 30px;background-color: black;border-style: dotted;border-radius: 20px;"></a></li>
+                <li><a class="active" href="cart.html"><img src="assest/img/2.png" style="width: 30px;height: 30px;background-color: black;border-style: dotted;border-radius: 20px;"></a></li>
             </ul>
         </div>
     </section>
 
-    <section id="hero">
-        <h5>Welcome to Super Fashion</h5>
-        <a href="Shop.html"><button>Shop Now</button></a>
+    <section id="cart" class="section-p1">
+        <h2 style="color: white; text-align: center;">Your Shopping Cart</h2>
+        <table id="cart-table">
+            <thead>
+                <tr>
+                    <th>Remove</th>
+                    <th>Image</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items" style="color: black;">
+
+            </tbody>
+        </table>
+        <div id="cart-total">Total: Rs. 0</div>
+        <button id="checkout-btn" onclick="checkout()">Proceed to Checkout</button>
     </section>
 
-    <section class="ourCollection">
-        <h1>Our Collections</h1>
-
-        <div class="grid-collection">
-            <div class="fashion">
-                <img src="assest/Img/woman.jpg" style="width: 648px;height: 648px;">
-                <h2>Womens Wear</h2>
-                <a href="Shop.html"><button class="F-btn">Shop Now</button></a>
-            </div>
-
-            <div class="fashion">
-                <img src="assest/Img/Mens.jpg" style="width: 648px;height: 648px;">
-                <h2>Mens Wear</h2>
-                <a href="Shop.html"><button class="F-btn">Shop Now</button></a>
-            </div>
-
-            <div class="fashion">
-                <img src="assest/Img/kids.jpg" style="width: 648px;height: 648px;">
-                <h2>Kids Wear</h2>
-                <a href="Shop.html"><button class="F-btn">Shop Now</button></a>
-            </div>
-
-            <div class="fashion">
-                <img src="assest/Img/Unisex.jpg" style="width: 550px;height: 648px;">
-                <h2>Unisex</h2>
-                <a href="Shop.html"><button class="F-btn">Shop Now</button></a>
-            </div>
-        </div>
-
-    </section>
 
     <footer style="background-color: rgb(1, 1, 80); padding-top: 2%;" class="section-p1">
         <section class="foot">
@@ -108,8 +94,6 @@
                 Copyright ©2025 | ce25260033 | Kaveesha Sithum</h6>
         </section>
     </footer>
-
-
     <script src="assest/app.js"></script>
 </body>
 

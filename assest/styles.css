@@ -153,11 +153,11 @@
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 #cart-table th {
-    background-color: #2E8B57;
+    background-color: rgb(1, 1, 80);
     padding: 12px;
     text-align: left;
 }
@@ -193,7 +193,7 @@
     display: block;
     margin: 20px auto;
     padding: 10px 30px;
-    background-color: #2E8B57;
+    background-color: rgb(1, 1, 80);
     color: white;
     border: none;
     border-radius: 4px;
@@ -202,7 +202,7 @@
 }
 
 #checkout-btn:hover {
-    background-color: #1B5E20;
+    background-color: rgb(1, 1, 80);
 }
 
 #empty-cart {
