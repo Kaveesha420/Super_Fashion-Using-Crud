@@ -12,64 +12,48 @@
 
 <body>
 
-    <div class="row g-4">
-        <div class="col-md-6 col-lg-12"> 
-        <section id="header">
+   <section id="header">
+        <a href="#"><img src="assest/Img/logo.png" class="logo" alt=""
+                style="width: 100px;height: 100px;margin-left: 70px;"></a>
 
-            <a href="#"><img src="assest/Img/logo.png" class="logo" alt=""
-                    style="width: 100px;height: 100px;margin-left: 70px;"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active"  href="login.html">Login/Register</a></li>
+                <li><a href="cart.html"><img src="assest/img/2.png" style="width: 30px;height: 30px;background-color: black;border-style: dotted;border-radius: 20px;"></a></li>
+            </ul>
+        </div>
+    </section>
 
-            <div>
-                <ul id="navbar">
-                    <li><a class="active" href="">Home</a></li>
-                    <li><a href="Shop.html">Shop</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="login.html">Login/Register</a></li>
-                    <li><a href="cart.html"><img src="assest/img/2.png"
-                                style="width: 30px;height: 30px;background-color: black;border-style: dotted;border-radius: 20px;"></a>
-                    </li>
-                </ul>
+    <div class="card shadow-lg w-100" style="max-width: 480px; margin-left: 35%; margin-top: 7%;margin-bottom: 10%;">
+        <div class="card-body">
+            <div class="text-center">
+                <h1 class="card-title h3">Sign in</h1>
+                <p class="card-text text-muted">Sign in below to access your account</p>
             </div>
-        </section>
+            <div class="mt-4">
+                <form action="">
+                    <div class="mb-4">
+                        <label for="email" class="form-label text-muted">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label text-muted">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password" required>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">Sign in</button>
+                    </div>
+                    <p class="text-center text-muted mt-4">Don't have an account yet?
+                        <a href="#!" class="text-decoration-none">Sign up</a>.
+                    </p>
+                </form>
+            </div>
         </div>
     </div>
-
-    <section id="hero">
-        <h5>Welcome to Super Fashion</h5>
-        <a href="Shop.html"><button>Shop Now</button></a>
-    </section>
-
-    <section class="ourCollection">
-        <h1>Our Collections</h1>
-
-        <div class="grid-collection">
-            <div class="fashion">
-                <img src="assest/Img/woman.jpg" style="width: 648px;height: 648px;">
-                <h2>Womens Wear</h2>
-                <a href="Shop.html"><button class="F-btn">Shop Now</button></a>
-            </div>
-
-            <div class="fashion">
-                <img src="assest/Img/Mens.jpg" style="width: 648px;height: 648px;">
-                <h2>Mens Wear</h2>
-                <a href="Shop.html"><button class="F-btn">Shop Now</button></a>
-            </div>
-
-            <div class="fashion">
-                <img src="assest/Img/kids.jpg" style="width: 648px;height: 648px;">
-                <h2>Kids Wear</h2>
-                <a href="Shop.html"><button class="F-btn">Shop Now</button></a>
-            </div>
-
-            <div class="fashion">
-                <img src="assest/Img/Unisex.jpg" style="width: 550px;height: 648px;">
-                <h2>Unisex</h2>
-                <a href="Shop.html"><button class="F-btn">Shop Now</button></a>
-            </div>
-        </div>
-
-    </section>
 
     <footer style="background-color: rgb(1, 1, 80); padding-top: 2%;" class="section-p1">
         <section class="foot">
@@ -115,8 +99,6 @@
                 Copyright ©2025 | ce25260033 | Kaveesha Sithum</h6>
         </section>
     </footer>
-
-
     <script src="assest/app.js"></script>
 </body>
 
